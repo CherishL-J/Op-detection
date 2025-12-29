@@ -19,7 +19,9 @@ Due to the large size of the dataset, it has not yet been organized and uploaded
 ├── config.m               # Experiment configuration
 │
 ├── features/
-│   └── ext_fft_feature.m  # FFT feature extraction
+│   └── ext_fft_feature.m  # Feature extraction
+│   └── histogram_1.m  # Histogram feature extraction
+│   └── h_v_fft_2.m  # FFT feature extraction
 │
 ├── svm/
 │   ├── train_svm.m        # SVM training and parameter selection
